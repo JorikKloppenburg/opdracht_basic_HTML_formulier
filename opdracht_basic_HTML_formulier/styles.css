@@ -1,0 +1,121 @@
+
+body { 
+    color: #002855;
+    font-family: 'Avenir Light','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 12px;
+}
+
+.border {
+    border: 8px solid rgba(0,40,85,.1);
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+#green-background {
+    background-color: #e6cfc8;
+}
+
+.container {
+    width: 50%;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+p { 
+    padding:  0px 0px 0px 0px;
+    margin:  0px 0px 0px 0px;
+}
+
+h1  { 
+    font-size: 40px;
+    margin:  0px 0px 0px 0px;
+}
+
+h2  { 
+    font-size: 30px;
+    margin:  0px 0px 0px 0px;
+}
+
+h3  { 
+    font-size: 20px;
+    margin:  0px 0px 0px 0px;
+}
+
+ul  { 
+    margin:  0px 0px 10px 0px;
+}
+
+.navigation  { 
+  margin: 10px 0px 10px 0px;  
+  background-color: #002855;
+}
+
+.ulnav{ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+  }
+
+.linav{ 
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+.img  { 
+    float: right;
+    margin:  10px 80px 10px 0px;
+
+}
+
+.otherpagebutton {
+    font-size: 20px;
+    text-align: center;
+    background-color: green;
+    border: 8px solid rgba(0,40,85,.1);
+    padding: 0px 0px 0px 00px;
+    margin: 00px 0px 0px 0px;
+}
+
+@media (max-width: 1024px) {
+    body {
+        background-color: #d3d3d3;
+        color: black;
+        font-size: 20px;
+    }
+
+    p { 
+        line-height:  1.7rem;
+    }
+
+    .img  { 
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+    
+    a {
+        font-size: 20px;
+    }
+
+    .linav {
+        text-align:none;
+        padding: 4px 6px;
+    }
+
+}
